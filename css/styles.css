@@ -1,7 +1,15 @@
-h1{
-  color:red;
-}
 
 body{
-	background-color:gray;
+	background-color:lightgray;
+}
+
+table{
+	font-size:40;
+	color:gray;
+  font-family:impact;
+}
+
+img{
+	height:100;
+	width:500;
 }
