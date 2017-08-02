@@ -1,0 +1,15 @@
+table thead{
+	font-size:30;
+	color:black;
+	text-decoration:underline; 
+}
+
+table tbody{
+	font-size:20;
+	color:black;
+	font-family:Bookman Old Style;
+}
+
+table{
+	margin-left:500px;
+}
