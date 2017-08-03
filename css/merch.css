@@ -1,24 +1,7 @@
-
 body{
 	background-image:url("background.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
-}
-
-table{
-	font-size:40;
-	color:gray;
-  font-family:impact;
-}
-
-img{
-	height:100;
-	width:500;
-}
-
-.Festival img{
-	position:absolute; 
-	top:0;
 }
 
 button{
@@ -32,4 +15,14 @@ button{
     font-size:20px;
     font-weight:700;
 }
+
+h1{
+	font-family:impact;
+	color:white;
+	font-size:50;
+}
+
+img{
+	height:100;
+	width:500;
 }
