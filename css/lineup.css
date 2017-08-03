@@ -1,3 +1,7 @@
+.centerTitle{
+	margin-left: 500px;
+}
+
 body{
 	background:url("background.jpg");
 	background-repeat: no-repeat;
@@ -25,10 +29,10 @@ button{
 	 margin-left: 230px;
     margin-top: 1px;
     width: 84px;
-    height: 45px;   
+    height: 45px;
     background: transparent;
     border: none;
-    color: black;   
+    color: black;
     font-size:20px;
     font-weight:700;
 }

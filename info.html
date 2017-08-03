@@ -2,19 +2,84 @@
 <html>
 	<head>
  		<title>VodaFest</title>
- 			
+
 <link rel="stylesheet" type="text/css" href="css/info.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 
 	<body>
-	
-		<center><img src='Logo.png' class="centerImage"/></center>
 
+		<div class="centerTitle">
+		<a href="index.html"><img src='Logo.png' class="centerImage"/>
+		</div>
 
-					<div>
-					<button class="btn btn-success" type="submit">LINE-UP</button>
-					<button class="btn btn-success" type="submit">TICKETS</button>
-					<button class="btn btn-success" type="submit">INFO</button>
-					<button class="btn btn-success" type="submit">MERCH</button>
+		<div>
+					<a href="lineup1.html"><button class="btn btn-success" type="submit">LINE-UP</button>
+					<a href="tickets.html"><button class="btn btn-success" type="submit">TICKETS</button>
+					<a href="info.html"><button class="btn btn-success" type="submit">INFO</button>
+					<a href="merch.html"><button class="btn btn-success" type="submit">MERCH</button>
+			</div>
+
 
 		<center><h1>INFO</h1></center>
+
+			<div class="container">
+			    <div class="row row-left">
+			        <div class="col-xs-3 offset-xs-6"><h2>Hyde Park- London W2 2UH</h2></div>
+			        <div class="col-xs-3 offset-xs-6" id="map"></div>
+			    </div>
+			</div>
+	 	<table>
+	  	<table cellspacing="30px">
+			<table align='right'>
+		<thead>
+					<tr>
+						<th>By Car</th>
+						<th>By Bus</th>
+						<th>By Train</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Pay and Display parking is available on West Carriage Drive and in car parks at either enbd of Serpentine Bridge. However, we recommend that visitors avoid travelling via car as there are limited spaces.
+						</td>
+						<td>North: C2, 6, 7, 10, 16, 19, 23, 36, 52, 73, 82, 98, 113, 274, 390, 414
+							South: 2, 36, 137, 148, 159, 436
+							West: 9, 10, 14, 19, 22, 52, 74, 94, 148, 414
+							East: 8, 15, 23, 30, 38, 274
+
+						</td>
+						<td>The tube stations that surround Hyde Park are:
+							Lancaster Gate (Central Line)
+							Marble Arch (Central Line)
+							Hyde Park Corner (Piccadilly Line)
+							Knightsbride (Piccadilly Line)
+
+						</td>
+
+					</td>
+				</tbody>
+			</table>
+
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href='#' class='fa fa-instagram'></a>
+			<a href '#' class='fa fa-snapchat'></a>
+
+
+	</body>
+		    			<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk-0TveCGi8bd57hWpgtuFdLMgAq-cZmI&callback=initMap"></script>
+		    				     	  <script>
+	      function initMap() {
+	        var uluru = {lat:51.508500 , lng:-0.165784 };
+	        var map = new google.maps.Map(document.getElementById('map'), {
+	          zoom: 12,
+	          center: uluru
+	        });
+	        var marker = new google.maps.Marker({
+	          position: uluru,
+	          map: map
+	        });
+	      }
+	    </script>
+</html>

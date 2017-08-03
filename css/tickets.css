@@ -1,10 +1,14 @@
+.centerTitle{
+	margin-left: 500px;
+}
+
 body{
 	background-image:url("background.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
 }
 
-button{
+.btn{
 	 margin-left: 230px;
     margin-top: 1px;
     width: 84px;

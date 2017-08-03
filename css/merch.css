@@ -1,3 +1,7 @@
+.centerTitle{
+	margin-left: 500px;
+}
+
 body{
 	background-image:url("background.jpg");
 	background-repeat: no-repeat;
@@ -23,8 +27,8 @@ h1{
 }
 
 img{
-	height:100;
-	width:500;
+	height:100px;
+	width:500px;
 }
 
 table{
@@ -47,7 +51,19 @@ table tbody{
 
 table{
 	margin-left:550px;
+}
 
-img{
+.merch {
+	height:200px;
+	width:250px;
+}
 
+.merch2 {
+	height:100px;
+	width:400px;
+}
+
+.merch1{
+	height:300px;
+	width:250px;
 }
