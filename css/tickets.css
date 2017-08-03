@@ -30,3 +30,8 @@ img{
 .container{
 	padding-left: 20%;
 }
+
+strong {
+	font-size: 26;
+	color: white;
+}
